@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    background-image: url(images/lincoln.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.visit {
+    color: white;
+    background: #457B9D;
+    border: 0px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.enjoy {
+    border-radius: 5px;
+    margin-top: 0px;
+    width: 350px;
+    padding: 6px 12px;
+    color: white;
+    background: #1D3557;
+    border: 0px solid white;
+}
+.middle {
+    padding: 1px;
+    margin-top: 0px;
+    background: #F1FAEE;
+    margin-bottom: 50px;
+}
+.middle-img-area {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2000px;
+}
+.mid-img {
+    border-radius: 500px;
+}
+#game-area {
+    display: flex;
+    flex-direction: column;
+}
+#capital-area {
+    display: flex;
+    flex-direction: column;
+}
+#runza-area {
+    display: flex;
+    flex-direction: column;
+}
+.image-desc {
+    width: 100px;
+}
+.image-desc2 {
+    width: 100px;
+}
+#guide-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    width: 150px;
+}
+#guide {
+    border-radius: 10px;
+    background: #A8DADC;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    border-bottom: 5px solid #1D3557;
+}
